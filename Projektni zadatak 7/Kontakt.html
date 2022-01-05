@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Apartment T&M Zagreb Airport</title>
+		<link rel="stylesheet" href="style.css">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="Apartman za 6 osoba">
+		<meta name="keywords" content="Apartman", "T&M", "Zagreb", "Airport">
+		<meta name="author" content="Antonio Krsnik">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	</head>
+<body>
+	<header>
+		<div class="apartman-img"></div>
+		<nav>
+			<ul>
+				<li><a href="index.html"><b>Početna stranica</b></a></li>
+				<li><a href="Novosti.html"><b>Novosti</b></a></li>
+			  	<li><a href="Kontakt.html"><b>Kontakt</b></a></li>
+			  	<li><a href="#"><b>O nama</b></a></li>
+			 	<li><a href="#"><b>Galerija</b></a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Kontkat</h1>
+		<p><b>mob. +385 95 397 6214</p></b>
+		<p><b><a href="mailto:apartmanitim2@gmail.com">apartmanitim2@gmail.com</a></p></b>
+		<div id="contact">
+			<iframe src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Vinka Jurkovića 1&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<form action="adduser.php" id="contact_form" name="contact_form" method="POST">
+				<label for="fname"> Ime/First name *</label>
+				<input type="text" id="fname" name="firstname" placeholder=" Vaše ime../Your name.." required>
+
+				<label for="lname"> Prezime/Last Name *</label>
+				<input type="text" id="lname" name="lastname" placeholder=" Vaše prezime../Your last name.." required>
+				
+				<label for="email"> Vaš e-mail/Your E-mail *</label>
+				<input type="email" id="email" name="email" placeholder="Vaš e-mail../Your e-mail.." required>
+
+				<label for="country"> Country</label>
+				<select id="country" name="country">
+				  <option value="">Molimo izaberite/Please select</option>
+				  <option value="SAD">United States of America</option>
+				  <option value="HR" selected>Croatia</option>
+				  <option value="GER">Germany</option>
+				  <option value="HU">Hungary</option>
+				  <option value="SRB">Serbia</option>
+				  <option value="SVK">Slovakia</option>
+				</select>
+
+				<label for="subject"> Obrati nam se/Contact us</label>
+				<textarea id="subject" name="subject" placeholder="Napiši nešto../Write something.." style="height:100px"></textarea>
+
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</main>
+		<footer>
+		<p>Copyright &copy; 2021 Antonio Krsnik <a href="https://github.com/AntonioKr98?tab=repositories"><img src="github.jpg" title="Github" alt="Github"></a></p>
+	</footer>
+</body>
+</html>
